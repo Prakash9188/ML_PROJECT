@@ -1,0 +1,20 @@
+name: robust-cifar10
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch>=2.2
+  - torchvision>=0.17
+  - pytorch-cuda=12.1      # remove this line for a CPU-only install
+  - numpy>=1.26
+  - pandas>=2.0
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - tabulate>=0.9
+  - pyarrow>=15.0
+  - pillow>=10.0
+  - pip
+  - pip:
+      - huggingface_hub>=0.23

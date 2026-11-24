@@ -1,0 +1,14 @@
+# Tested with Python 3.11. Install a CUDA build of torch for GPU training, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+tabulate>=0.9
+
+# data preparation only (scripts/prepare_data.py)
+huggingface_hub>=0.23
+pyarrow>=15.0
+pillow>=10.0
